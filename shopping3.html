@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Shopping cart</title>
+        <link rel="stylesheet" href="styles/style2.css">
+         <link rel="stylesheet" href="styles/style3.css">
+
+  </head>
+  <body>
+      <div  class="line-bord">
+
+      <div class="nav-headerleft">
+      <nav>
+	             <h1><a href="#"><img src="images/SH.PNG" alt="SH"/></a></h1>
+            <ul> 
+           <li><a href="#">Woman</a></li>
+           <li><a href="#">Men</a></li>
+           <li><a href="#">Kids</a></li>
+           <li><a href="#">Coming Soon</a></li>
+           <li><a href="#">About</a></li>
+         </ul>
+      </nav>
+    </div>
+	
+	 <div class="nav-headerright">
+      <nav>
+         <ul> 
+           <li> <a href="#"><img src="images/Login.png"/>log in </a></li>
+           <li class="basket"> <a href="#"><img src="images/Basket.png"/>Basket(0)</a> </li>
+         </ul>
+      </nav>
+    </div>
+	<div class="search">
+          <form action="">
+            <input class="search__field" type="text" placeholder=" search something....">
+            <button class="search__button">Search</button>
+          </form>
+	</div>
+	</div>
+	<div class="title">
+      <h1>your shopping bag </h1>
+    <p>Items reserved for limited time only</p> 
+	</div>
+	<div class="productdescrip">
+	<table>
+      <tr class="first">  
+           <td> product</td>
+            <td> Description</td> 
+		     <td> color </td>  
+		     <td> size</td>
+            <td>Qty</td>  
+             <td> amount</td>  
+            <td>delete</td>  
+			</tr>
+			
+			 <tr class="second">  
+           <td> <a href="#"></a></td>
+            <td> 
+			 <div class="descrip">
+             <h2> floral plimsoil</h2>
+              <p>Ref.2514/302</p>
+               </div>
+			</td> 
+		     <td> One color </td>  
+		     <td> 39</td>
+            <td>
+			<p class="numb">1</p>
+			<div class="qty">
+            <button class="plus"></button>
+            <button class="minus"></button>
+               </div>
+			</td>  
+             <td> &#8364 99,95</td>  
+            <td><button class="delete"></button></td>  
+			</tr>
+
+			 <tr class="second">  
+           <td> <a href="#"></a></td>
+            <td> 
+			 <div class="descrip">
+             <h2> coated 5 pocket trousers </h2>
+              <p>Ref.8246/044</p>
+               </div>
+			</td> 
+		     <td> One color </td>  
+		     <td> M</td>
+            <td>
+			<p class="numb">1</p>
+			<div class="qty">
+            <button class="plus"></button>
+            <button class="minus"></button>
+               </div>
+			</td>  
+             <td>&#8364 169,95</td>  
+            <td><button class="delete"></button></td>  
+			</tr>
+
+			 <tr class="second">  
+           <td> <a href="#"></a></td>
+            <td> 
+			 <div class="descrip">
+             <h2>oversized studio blouse</h2>
+              <p>Ref.2514/302</p>
+               </div>
+			</td> 
+		     <td> Black </td>  
+		     <td> S</td>
+            <td>
+			<p class="numb">2</p>
+			<div class="qty">
+            <button class="plus"></button>
+            <button class="minus"></button>
+               </div>
+			</td>  
+             <td> &#8364 299,95</td>  
+            <td><button class="delete"></button></td>  
+			</tr>
+
+</table>
+<div class="total">
+<h3>Subtotal:</h3> 
+<p>&#8364 567,95</p>
+</div>
+<div class="break">
+<img src="images/content1.jpg"/>
+</div>
+	</div>
+	<div class="shipping">
+		<div class="title">
+      <h1>shipping address </h1>
+    <p>All fields are required</p> 
+	</div>
+	
+	<div class="info">
+	<div>
+	<p class="text1">select delievery method</p>
+	<select>
+   <option> DHL international-&#8364 15,00 </option>
+    </select>
+	</div>
+	<div class="smallinput">
+	<div>
+	<p>first name</p>
+   <input type="text"/>
+   </div>
+   <div>
+   <p>last name</p>
+   <input type="text"/>
+   </div>
+    </div>
+	<div class="large">
+	<p class="largetext">Adress(1)</p>
+	 <input class="largeinput" type="text"/>
+      </div>
+	<div class="large">
+	<p class="largetext">Adress(1)</p>
+	 <input class="largeinput" type="text"/>
+      </div>
+	  <div class="smallinput">
+	<div>
+	<p>city</p>
+   <input type="text"/>
+   </div>
+   <div>
+   <p>postal code</p>
+   <input type="text"/>
+   </div>
+    </div>
+	<div class="smallinput">
+	<div>
+	<p>phone number </p>
+   <input type="text"/>
+   </div>
+   <div>
+   <p>email</p>
+   <input type="text"/>
+   </div>
+    </div>
+	<div class="check">
+	<input type="checkbox">
+	<p>use this address for billing</p>
+	</div>
+	</div>
+	
+	</div>
+	<div class="break">
+<img src="images/content1.jpg"/>
+</div>
+<div class="payment">
+<div class="title">
+      <h1>payment options </h1>
+    <p>All fields are required</p> 
+	</div>
+	
+<div class="summation">
+<p> Subtotal:  &#8364 567,95</p>
+<p> Shipping:  &#8364 15,00</p>
+<h3 lass="totalm">    Total:  &#8364 582,95</h3>
+
+</div>
+<div class="paycard">
+	<p class="text1">select payment method</p>
+	<select>
+   <option> credit card </option>
+    </select>
+	
+	</div>
+	<div>
+	<button class="order">order now</button>
+	</div>
+	</div>
+	<footer>
+<div class="clearfix">
+<div class="bottom">
+	<h5>Collection</h5>
+		<ul>
+			<li><a href="#"> Woman</a></li>
+			<li><a href="#"> Men</a></li>
+			<li><a href="#"> Kids</a></li>
+			<li><a href="#"> Comming Soon</a></li>
+			</ul>
+				</div>
+				<div class="bottom">
+					<h5>Site</h5>
+					<ul>
+						<li><a href="#"> Terms of Service</a></li>
+						<li><a href="#"> Privacy Policy</a></li>
+						<li><a href="#"> Copyright Policy</a></li>
+						<li><a href="#"> Press Kit</a></li>
+						<li><a href="#"> Support</a></li>
+					</ul>
+				</div>
+				<div class="bottom">
+					<h5>shop</h5>
+					<ul >
+						<li><a href="#"> About us</a></li>
+						<li><a href="#"> Shipping Methods</a></li>
+						<li><a href="#"> Career</a></li>
+						<li><a href="#"> Contact</a></li>
+					</ul>
+				</div>
+		<div class="bottom">
+		<h5>social</h5>
+			<p><small> Shoper is made with love in Warsaw</small></p>
+		<p><small> 2014 &copy; All rights reserved.El Passion </small></p>
+			<ul class="socialmedia">
+				<li><a href="#"> <img src="images/twitter.jpg"></a></li>
+				<li><a href="#"> <img src="images/facebook.jpg"></a></li>
+				<li><a href="#"> <img src="images/insta.jpg"></a></li>
+			</ul>
+		</div>
+		</div>
+		</footer>
+			
+	</body>
+  </html>
